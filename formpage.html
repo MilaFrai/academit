@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="C:\Users\Мила\Desktop\Тестирование\style.css">
+    <title>Первая страница</title>
+</head>
+<body>
+    <form action="someaction.php" method="post" align="center" width = "50%">
+        <div class="container" align="center">
+          <h1>Регистрация на сайте</h1>
+          <hr>
+          <div class="fon">
+          <label for="login"><b>Логин</b></label>
+          <input type="text" placeholder="Придумай логин" name="login" required>
+          <br>
+      
+          <label for="psw"><b>Пароль</b></label>
+          <input type="password" placeholder="Придумай пароль" name="psw" required>
+          <br>
+        
+          <label for="info"><b>О себе</b></label>
+          <textarea rows="7" cols="45" name="text"></textarea>
+          <p>
+            
+            <label for="info"><b>Кем играем?</b></label>
+            <select size="3" multiple name="hero[]">
+            <option disabled>Выбери героя мультика</option>
+            <option selected value="Инкогнито">Инкогнито</option>
+            <option value="Чебурашка">Чебурашка</option>
+            <option value="Крокодил Гена">Крокодил Гена</option>
+            <option value="Шапокляк">Шапокляк</option>
+            <option value="Крыса Лариса">Крыска Лариска</option>
+           </select></p>
+
+          <label for="male"><b>Пол</b></label>
+          <input type="radio" value="Муж" name="myRadio"> Муж
+          <input type="radio" value="Жен" name="myRadio"> Жен
+          <hr>
+            <label for="male"><b>Предпочитаешь</b></label>
+            <input type="checkbox" value="games" name="myRadio"> Игры
+            <input type="checkbox" value="books" name="myRadio"> Книги
+          </div>
+          <br>          
+          <a href="C:\Users\Мила\Desktop\Тестирование\index.html" target="_self" name = "button2"><button type="submit" class="button">Регистрация</button></a>
+          <hr>
+          <a href="C:\Users\Мила\Desktop\Тестирование\index.html" target="_self" class="sp" name = "linktopage">Полезная информация</a>
+        </div>
+      </form>
+</body>
+</html>
